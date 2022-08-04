@@ -178,6 +178,7 @@ p {
     margin-top: 70px;
     display: flex;
     justify-content: center;
+    color: #f8f9fb;
 }
 .check-work a {
     background: rgb(4, 15, 15);
@@ -248,11 +249,21 @@ footer a{
     .badges{
         grid-template-columns: 1fr;
     }
-}
-@media only screen and (max-width:300px) {
+    .personal-flex {
+        flex-direction: column;
+    }
+    .personal-flex .badge {
+        width: 100%;
+    }
+    *{
+        font-size: 20px;
+    }
     .about-me {
         height: 1200px;
     }
+}
+@media only screen and (max-width:300px) {
+   
 
     .personal-pic {
         width: 100px;
