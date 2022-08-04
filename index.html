@@ -13,20 +13,45 @@
   </head>
   <body>
     <header>
-      <span>Hamza Juwaihan</span>
+      <!-- <span>Hamza Juwaihan</span>
       <nav class="navigation">
         <ul>
           <li><a href="./index.html">HOME</a></li>
           <li><a href="#">PROJECTS</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
+      </nav> -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Hamza Juwaihan</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <div class="about-me position-relative">
       <div class="container position-absolute top-50 start-50 translate-middle">
-        <div class="glass row align-items-center">
-          <div class="col-9">
-            <h2 class="pt-5">About me</h2>
+        <div class="glass align-items-center">
+          <div class="summary">
+            <h2 class="pt-3">About me</h2>
             <p>
               Senior computer science student with 3.56 GPA. In pursuit of
               searching for a good opportunity preferably in web development to
@@ -37,7 +62,7 @@
             </p>
           </div>
 
-          <div class="col-3">
+          <div class="personal-pic">
             <img
               src="Source Code\images\1644758430525.jpg"
               alt="Personal picture"
@@ -48,6 +73,7 @@
       </div>
     </div>
 
+    <!-- Qualification Section -->
     <div class="container qualification">
       <h2>Education and Certificates</h2>
       <h3>HCIA-Cloud Computing</h3>
@@ -66,7 +92,7 @@
           </div>
         </div>
         <div>
-            <img src="Source Code\images\check.png" alt="Completed" >
+          <img src="Source Code\images\check.png" alt="Completed" />
         </div>
       </div>
       <h3>B.S in computer Science</h3>
@@ -109,6 +135,49 @@
       </div>
     </div>
 
-    
+    <section class="container skills">
+      <h2>Qualifications & Skills</h2>
+      <div class="technical-skills">
+        <h3>Technical Skills</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="badges">
+        <div class="badge">
+          <img
+            src="Source Code\images\skills\HTML5_badge.png"
+            alt="HTML5 logo"
+          />
+          <h5>HTML5</h5>
+        </div>
+        <div class="badge">
+          <img src="Source Code\images\skills\logo-css3.png" alt="CSS3 logo" />
+          <h5>CSS3</h5>
+        </div>
+        <div class="badge">
+          <img
+            src="Source Code\images\skills\javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+            alt="JavaScript logo"
+          />
+          <h5>JavaScript</h5>
+        </div>
+        <div class="badge">
+          <img src="Source Code\images\skills\bootstrap-logo-shadow.png" alt="Bootstrap5 logo" />
+          <h5>Bootstrap 5</h5>
+        </div>
+        <div class="badge">
+          <img src="Source Code\images\skills\ux2.png" alt="UI/UI design" />
+          <h5>UX/UI Desgin</h5>
+        </div>
+        <div class="badge">
+          <img src="Source Code\images\skills\Git-Icon-1788C.png" alt="Git logo" />
+          <h5>Git</h5>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
