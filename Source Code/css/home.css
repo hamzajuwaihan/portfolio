@@ -136,6 +136,7 @@ p {
 
     margin-top: 80px;
 }
+
 .technical-skills {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -145,22 +146,82 @@ p {
     font-size: 22px;
 }
 .badge img {
-    width: 200px;
+    width: 50%;
     height: 200px;
 }
 .badges {
+    
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
     row-gap: 50px;
 }
 
+.personal-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.personal-flex .badge {
+    width: 33.3%;
 
-
-
-
-
-
+}
+.personal-skills {
+    margin-top: 40px;
+}
+.personal-skills p {
+    font-size: 22px;
+}
+.check-work {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.check-work a {
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    padding: 20px;
+    width: 200px;
+}
+.check-work a:hover {
+    color: #f8f9fb;
+    
+}
+.social-media {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-media img {
+    width: 40px;
+    height: 50px;
+    margin: 10px;
+}
+.social-links {
+    width: 200px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    margin-top: 20px;
+}
+footer a{ 
+    color: #f8f9fb;
+}
 /* Media Queries */
 @media only screen and (max-width:999px) {
     .glass {
