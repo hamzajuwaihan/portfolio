@@ -1,0 +1,58 @@
+/* fonts import */
+/* Headers */
+@font-face {
+    font-family: Electrolize;
+    src: url(../fonts/Electrolize/Electrolize-Regular.ttf);
+}
+/*subheader */
+@font-face {
+    font-family: 'cormorant';
+    src: url(../fonts/cormorant\ garamond/.ttf);
+}
+/* normal text*/
+@font-face {
+    font-family: Kanit;
+    src: url(../fonts/kanit/Kanit/Kanit-Regular.ttf);
+}
+
+
+body {
+    font-family: sans-serif;
+    color: black;
+}
+
+h5 {
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+header {
+    font-family: Electrolize;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.glass h2 {
+    color: #f8f9fb;
+    font-family: 'Cormorant Garamond';
+}
+
+@media only screen and (max-width:445px) {
+    *{
+        font-size: 20px;
+    }
+}
+
+.personal-skills p {
+    font-size: 22px;
+}
+
+.technical-skills >p {
+    font-size: 22px;
+
+}
+
+p {
+    font-family: Kanit;
+}

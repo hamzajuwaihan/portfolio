@@ -1,37 +1,13 @@
-/* fonts import */
-/* Headers */
-@font-face {
-    font-family: Electrolize;
-    src: url(../fonts/Electrolize/Electrolize-Regular.ttf);
-}
-/*subheader */
-@font-face {
-    font-family: 'cormorant';
-    src: url(../fonts/cormorant\ garamond/.ttf);
-}
-/* normal text*/
-@font-face {
-    font-family: Kanit;
-    src: url(../fonts/kanit/Kanit/Kanit-Regular.ttf);
-}
 
-body {
-    font-family: sans-serif;
-    color: black;
-}
-h5 {
-    color: black;
-    margin-top: 10px;
-    font-weight: bold;
-}
+
+
+
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: #f8f9fb;
-    font-family: Electrolize;
-    font-weight: bold;
-    font-size: x-large;
+
 
 }
 
@@ -69,10 +45,7 @@ a {
     
 }
 
-.glass h2 {
-    color: #f8f9fb;
-    font-family: 'Cormorant Garamond';
-}
+
 
 @keyframes gradient {
     0% {
@@ -87,9 +60,7 @@ a {
         background-position: 0% 50%;
     }
 }
-p {
-    font-family: Kanit;
-}
+
 .glass {
     background: rgba( 255, 255, 255, 0.2 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -144,7 +115,6 @@ p {
 }
 .technical-skills >p {
     margin-bottom: 70px;
-    font-size: 22px;
 }
 .badge img {
     width: 50%;
@@ -171,9 +141,7 @@ p {
 .personal-skills {
     margin-top: 40px;
 }
-.personal-skills p {
-    font-size: 22px;
-}
+
 .check-work {
     margin-top: 70px;
     display: flex;
@@ -259,9 +227,7 @@ footer a{
     .personal-flex .badge {
         width: 100%;
     }
-    *{
-        font-size: 20px;
-    }
+
     .about-me {
         height: 1200px;
     }
