@@ -35,3 +35,39 @@ section hr {
 .card h3 , .card p {
     margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    margin-top: 20px;
+}
+footer a{ 
+    color: #f8f9fb;
+}
