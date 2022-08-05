@@ -6,7 +6,7 @@
 }
 /*subheader */
 @font-face {
-    font-family: 'cormorant garamond';
+    font-family: 'cormorant';
     src: url(../fonts/cormorant\ garamond/.ttf);
 }
 /* normal text*/
@@ -55,6 +55,7 @@ a {
     display: inline-block;
     padding: 20px;
 }
+
 
 /* END OF HEADER */
 
@@ -165,8 +166,7 @@ p {
     align-items: center;
 }
 .personal-flex .badge {
-    width: 33.3%;
-
+    width: 30%;
 }
 .personal-skills {
     margin-top: 40px;
@@ -212,6 +212,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 200px;
     background: rgb(4, 15, 15);
     background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
@@ -237,6 +238,9 @@ footer a{
 @media only screen  and (max-width:768px) {
     .about-me {
         height: 800px;
+    }
+    .personal-flex .badge {
+        width: 100%;
     }
     .glass .summary {
         padding: 0;
