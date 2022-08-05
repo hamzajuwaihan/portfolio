@@ -22,11 +22,16 @@ body {
 }
 
 h5 {
+    font-family: Electrolize;
     color: black;
     margin-top: 10px;
     font-weight: bold;
 }
+h1,h2,h3 {
+    font-family: Electrolize;
+    font-weight: bold;
 
+}
 header {
     font-family: Electrolize;
     font-weight: bold;
@@ -55,4 +60,8 @@ header {
 
 p {
     font-family: Kanit;
+}
+h2 > span {
+    font-size: 15px;
+    color:gray;
 }
