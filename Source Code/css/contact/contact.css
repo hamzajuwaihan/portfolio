@@ -1,0 +1,143 @@
+body {
+    height: 800px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+section {
+
+    background-color: #f8f9fb;
+    width: 60%;
+
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+section h1,
+section h2,
+section p {
+    text-align: center;
+}
+
+form {
+    margin-top: 50px;
+    width: 70%;
+}
+
+label:first-child {
+    font-weight: bold;
+
+}
+
+.entity {
+    margin-bottom: 20px;
+
+}
+
+.custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choice {
+    display: block;
+    margin-right: 15px;
+}
+
+label,
+input {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form>input {
+    width: 60%;
+}
+
+textarea {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+input[type=text]:hover,
+input[type=email]:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+}
+
+/*footer css */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    margin-top: 20px;
+}
+
+
+footer a {
+    color: #f8f9fb;
+    text-decoration: none;
+}
+
+@media screen and (max-width:750px) {
+    h1 {
+        font-size: 22px;
+
+    }
+
+    body {
+        font-size: medium;
+    }
+    section {
+        width: 90%;
+    }
+}
+    @media screen and (max-width:500px) {
+        .buttons {
+            width: 90%;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 90%;
+        }
+
+        textarea {
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 18px;
+
+        }
+
+        body {
+            font-size: 12px !important;
+        }
+    }
