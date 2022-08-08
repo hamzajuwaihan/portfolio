@@ -1,0 +1,480 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fb;
+
+
+}
+
+header span {
+    padding: 20px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+/* END OF HEADER */
+
+.about-me {
+    height: 800px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+
+}
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass .summary {
+    padding: 70px 70px 70px 0px;
+    width: 70%;
+}
+
+.personal-pic {
+    width: 200px;
+    height: 200px;
+}
+
+.custom-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.qualification h2 {
+    margin-bottom: 30px;
+}
+
+.qualification {
+    margin-top: 50px;
+
+}
+
+.qualification img {
+    width: 30px;
+    height: 30px;
+}
+
+.progress {
+    width: 70%;
+}
+
+
+
+.skills {
+
+    margin-top: 80px;
+}
+
+.technical-skills {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.technical-skills>p {
+    margin-bottom: 70px;
+}
+
+.badge img {
+    width: 50%;
+    height: 200px;
+}
+
+.badges {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+}
+
+.personal-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-flex .badge {
+    width: 30%;
+}
+
+.personal-skills {
+    margin-top: 40px;
+}
+
+.check-work {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    color: #f8f9fb;
+}
+
+.check-work a {
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    padding: 20px;
+    width: 200px;
+}
+
+.check-work a:hover {
+    color: #f8f9fb;
+
+}
+
+.social-media {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-media img {
+    width: 40px;
+    height: 50px;
+    margin: 10px;
+}
+
+.social-links {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f8f9fb;
+}
+
+/* Contact Page */
+.contact-background {
+    height: 800px;
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    color: black;
+}
+
+a.contact {
+    text-decoration: none;
+    color: grey;
+}
+
+.form-holder {
+
+    background-color: #f8f9fb;
+    width: 60%;
+
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.form-holder h1,
+.form-holder h2,
+.form-holder p {
+    text-align: center;
+}
+
+form {
+    margin-top: 50px;
+    width: 70%;
+}
+
+label:first-child {
+    font-weight: bold;
+
+}
+
+.entity {
+    margin-bottom: 20px;
+
+}
+
+.custom-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choice {
+    display: block;
+    margin-right: 15px;
+}
+
+label,
+input {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+form>input {
+    width: 60%;
+}
+
+textarea {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+input[type=text]:hover,
+input[type=email]:hover {
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+}
+
+/*End of contact page stylings*/
+.projects-page section {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.projects-page section hr {
+
+    margin-top: 100px;
+
+}
+
+.projects-page .projects h2 ,.projects-page .tasks h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.projects-page .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.projects-page .card {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.projects-page .card img {
+    height: 200px;
+}
+.projects-page .card h3 ,.projects-page .card p {
+    margin-top: 20px;
+}
+
+.projects-page .check-work {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    color: #f8f9fb;
+    margin-bottom: 100px;
+}
+.projects-page .check-work a {
+    background: rgb(4, 15, 15);
+    background: linear-gradient(90deg, rgba(4, 15, 15, 1) 5%, rgba(1, 126, 167, 1) 90%);
+    background-size: 400% 400%;
+    animation: gradient 10s linear infinite;
+    color: #f8f9fb;
+    padding: 20px;
+    width: 200px;
+}
+.projects-page .check-work a:hover {
+    color: #f8f9fb;
+    
+}
+
+
+/*start of Projects page stylings */
+
+
+
+
+/*end of Projects page stylings */
+/* Media Queries */
+@media only screen and (max-width:999px) {
+    .glass {
+
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+    .projects-page .tasks ,.projects-page .projects {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    .projects-page .cards {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    .projects-page .card {
+     width: 80%;
+     margin-top: 50px;
+    }
+    
+ }
+
+@media screen and (max-width:750px) {
+    h1 {
+        font-size: 22px;
+
+    }
+
+    .contact-background {
+        font-size: medium;
+    }
+
+    .form-holder {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about-me {
+        height: 800px;
+    }
+
+    .personal-flex .badge {
+        width: 100%;
+    }
+
+    .glass .summary {
+        padding: 0;
+    }
+
+    .badges {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .buttons {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 18px;
+
+    }
+
+    .contact-background {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width:445px) {
+    .badges {
+        grid-template-columns: 1fr;
+    }
+
+    .personal-flex {
+        flex-direction: column;
+    }
+
+    .personal-flex .badge {
+        width: 100%;
+    }
+
+    .about-me {
+        height: 1200px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+
+
+    .personal-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .qualification {
+        padding-left: 5px;
+    }
+}
